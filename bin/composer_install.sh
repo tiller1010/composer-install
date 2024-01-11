@@ -29,5 +29,5 @@ if [ -n "${working_directory}" ]; then
 fi
 
 full_command="${php_path} ${composer_path} ${composer_command} ${composer_options[*]}"
-echo "::debug::Using the following Composer command: '${full_command}'"
-$full_command
+echo "Using the following Composer command: '${full_command}'"
+# $full_command
